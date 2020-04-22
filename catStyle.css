@@ -1,0 +1,190 @@
+
+body{
+    background-color: #827354;
+}
+
+#footer{
+    background-color: #513e16;
+    color: #fff;
+    text-align: center;
+    padding: 12px;
+    position: relative;
+    bottom:0;
+    width: 100%;
+}
+
+#header{
+    margin-top: 10px;
+}
+
+ #idLogo{
+    height: 100px;        
+    background-repeat: no-repeat;
+    background-size: contain; 
+    background-image: url('gatineos/logo.png');
+    margin: 0 -10px 10px 10px;
+ }
+
+ #header h1{
+     color: #e62d84;
+     font-weight: bold;
+ }
+
+/* Menu */
+ #catMenu{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #006400;    
+    height: 30px;   
+ }
+
+ #catMenu a{
+     color: #fff;
+     margin: 0 10px;
+ }
+
+ #catMenu a:hover{
+    text-decoration: none;
+    color: #bbcc9e;
+ } 
+
+.container{
+    background-color: #ecd9b0;
+}
+
+
+/*banner*/
+#gatosBanner{} 
+
+.gatosDoBanner{
+    height: 300px;    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Home - principal */
+.quadroGatoTexto{
+    text-align: center;
+    height: 200px;
+    padding-top: 12px;
+    background-color: #6b5838;
+    color: #ece3ce;
+}
+
+.quadroGatoTexto p{
+    margin-top: 80px;
+}
+
+.quadroGato{
+    height: 200px;    
+    background-repeat: no-repeat;
+    background-size: cover;     
+}
+
+/*  Quadro de votos */
+
+.boxvoto{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 95%; 
+}
+
+.quadroVoto{    
+    padding: 10px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    min-width: 33%;  
+}
+
+.quadroVotoImg{
+    transition-timing-function: ease-in;    
+}   
+
+.quadroVotoImg:hover{
+   border: #006838 solid 6px;
+   width: 250px;
+   height: 250px;   
+   cursor: pointer;
+}
+
+.quadroVotoImg:active{
+   opacity: 0.5;
+}
+
+/*  POP-UP Votos  */
+
+#votou{
+    background-color: #f9dfc8;
+    border: 9px solid #e62d84;
+    position: fixed;
+    top: 20%;
+    left: 25%;
+    width: 500px;
+    height: 400px;
+}
+
+.textoquadro{
+    margin: 30px 0 0 20px;
+    font-size: large;
+}
+.textoquadro:first-of-type{
+    margin: 70px 0 0 20px;
+}
+
+#nomeFoto{
+    color:#e62d84;
+    font-weight: bold;
+}
+
+#votou h3{
+    color:#e62d84;
+    margin-left:30px;
+}
+
+#gatoResultados{
+margin: 20px;
+
+}
+
+.gatoContagem{
+    text-align: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 10px;
+    height: 50px;
+    width: 50px;
+    border: 2px solid #006400;;
+    background-blend-mode: screen;
+    background-image: url(gatineos/voto1.jpg);
+    background-color: #69482f;
+}
+
+.gatoContagem p { 
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    background-color: #e62684a3;
+}
+
+/* Botão fechar */
+
+.btnfechar {
+    float: right;
+    margin: 9px;
+    width: 55px;
+}
+
+img.btnfechar:hover{
+    opacity: 0.8;
+    width: 54px;
+    cursor: pointer;
+}
+
+
