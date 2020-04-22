@@ -1,0 +1,70 @@
+<html>
+<head>
+
+    <title>Uma página para ver gatinhos</title>
+    <!-- AKA Uma página feita super rápida-->
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="catStyle.css">
+
+    <script type="text/javascript" src="scriptGato.js"></script>
+</head>
+<body>
+<div class="container">
+    <div id="header" class="row">
+        
+        <div id="idLogo" class="col-sm-6"></div>
+        <h1 class="col-sm-6">Uma página para ver gatinhos</h1>
+        <div id="catMenu" class="col-sm-12"><a href="index.html">Home</a> <a href="page1.html">Vote</a></div>
+        
+    
+    </div>
+
+    <div id="pageContent">
+        <div id="gatosBanner">  
+            <!-- O banner foi feito com um JS simples escrito a mão apenas para demonstração de código -->
+            <div class="gatosDoBanner" id="gatoB" style="background-image: url('gatineos/b1.jpg');"></div> 
+           
+        </div>
+
+        <div class="row">
+            <div class="col-sm-6 col-md-4 quadroGatoTexto">                
+                <p>Ao lado veja um gato, aliás, uma gata</p>
+                <p class="hidden catName" id="g1">Ela se chama Léia!</p>
+            </div>
+            <div class="col-sm-6 col-md-4 quadroGato" style="background-image: url('gatineos/leia.jpg');">
+          
+            </div>
+
+            <div class="col-sm-6 col-md-4 quadroGatoTexto">                
+                <p class="visible-sm">Esse aqui também é um gato</p>
+                <p class="hidden-sm">Aquele outro lá tamém é um gato</p>
+                <p class="hidden catName" id="g1">Eu o chamo de Luke!</p>
+            </div>
+          
+             <div class="col-sm-6 col-md-4 quadroGato" style="background-image: url('gatineos/luke.jpg');">
+        
+            </div>
+            <div class="col-sm-6 col-md-4 quadroGatoTexto">
+                <p>Esse último é um porquinho disfarçado</p>
+                <p class="hidden catName" id="g1">Seu nome é Arquimedes!</p>
+            </div>
+            <div class="col-sm-6 col-md-4 quadroGato" style="background-image: url('gatineos/arqui.jpg');">
+   
+            </div>
+      </div>
+
+
+ 
+</div>
+</div>
+<div id="footer">
+    
+    <p>Made by <span style="color: #ecd9b0; font-weight:bold">Mariana Sorc</span>: Front-End and Cat-Owner</p>
+    <!-- mas eu juro que prefiro cachorro -->
+</div>
+
+<script type="text/javascript">quadroimagens();</script>
+
+</body>
+</html>

@@ -1,0 +1,87 @@
+<html>
+<head>
+
+    <title>Uma página para ver gatinhos</title>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="catStyle.css">
+
+
+</head>
+<body>
+<div class="container">
+    <div id="header" class="row">
+        
+        <div id="idLogo" class="col-sm-6"></div>
+        <h1 class="col-sm-6">Uma página para ver gatinhos</h1>
+        <div id="catMenu" class="col-sm-12"><a href="index.html">Home</a> <a href="page1.html">Vote</a></div>
+        
+    
+    </div>
+
+
+    <div id="pageContent">
+
+     <h2>Vote na foto*</h2>
+     <p>Vote na foto mais legal de gatinho</p>   
+
+        <div class="boxvoto">
+            <div id="gatoV1" class="quadroVoto" onclick="votar(this.id)">  
+                <img class="quadroVotoImg" id="voto1" src="gatineos/voto1.jpg" alt="Luke na almofada">  
+            </div>
+            <div id="gatoV2" class="quadroVoto" onclick="votar(this.id)">  
+                <img class="quadroVotoImg" id="voto2" src="gatineos/voto2.jpg" alt="Léia com olhar profundo">  
+            </div>
+            <div id="gatoV3" class="quadroVoto" onclick="votar(this.id)">  
+                <img class="quadroVotoImg" id="voto3" src="gatineos/voto3.jpg" alt="Arquimedes na Janela">  
+            </div>
+            <div id="gatoV4" class="quadroVoto" onclick="votar(this.id)">  
+                <img class="quadroVotoImg" id="voto4" src="gatineos/voto4.jpg" alt="Luke na Luz">  
+            </div>
+            <div id="gatoV5" class="quadroVoto" onclick="votar(this.id)">  
+                <img class="quadroVotoImg" id="voto5" src="gatineos/voto5.jpg" alt="Reunião">  
+            </div>
+            <div id="gatoV6" class="quadroVoto" onclick="votar(this.id)">  
+                <img class="quadroVotoImg" id="voto6" src="gatineos/voto6.jpg" alt="Luke e Léia">  
+            </div>    
+        </div>        
+
+        <p>*Infelizmente os votos são apenas para teste visual. Os gatinhos não saberão o resultado.</p>
+        <!--  -->
+
+        <div id="votou" class="hidden">
+            <img class="btnfechar" src="gatineos/fechar.png" alt="fechar" onclick="fechar('votou')">
+            <p class="textoquadro" id="textoVoto">Você votou na foto <span id="nomeFoto">X</span></p>
+            <p class="textoquadro">Gatinhos agradecem seu voto!</p>
+        
+            
+            <h3>Resultados:</h3>
+            
+            <div id="gatoResultados" class="row">
+
+                <div id="cont1" class="col-sm-4 col-md-2 gatoContagem" style="background-image: url('gatineos/voto1.jpg');"><p id="c1">0</p></div>
+                <div id="cont2" class="col-sm-4 col-md-2 gatoContagem" style="background-image: url('gatineos/voto2.jpg');"><p id="c2">0</p></div>
+                <div id="cont3" class="col-sm-4 col-md-2 gatoContagem" style="background-image: url('gatineos/voto3.jpg');"><p id="c3">0</p></div>
+                <div id="cont4" class="col-sm-4 col-md-2 gatoContagem" style="background-image: url('gatineos/voto4.jpg');"><p id="c4">0</p></div>
+                <div id="cont5" class="col-sm-4 col-md-2 gatoContagem" style="background-image: url('gatineos/voto5.jpg');"><p id="c5">0</p></div>
+                <div id="cont6" class="col-sm-4 col-md-2 gatoContagem" style="background-image: url('gatineos/voto6.jpg');"><p id="c6">0</p></div>
+
+            </div>       
+
+        </div>
+
+    </div>    
+</div>
+
+ 
+
+
+<div id="footer">
+    
+    <p>Made by <span style="color: #ecd9b0; font-weight:bold">Mariana Sorc</span>: Front-End and Cat-Owner</p>
+    <!-- mas eu juro que prefiro cachorro -->
+</div>
+
+<script type="text/javascript" src="scriptGato.js"></script>
+</body>
+</html>
